@@ -1,0 +1,4 @@
+# https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
+name: Modulo Tuya Lock
+url: 'https://github.com/FernandoWahl/tuya-lock-ha'
+maintainer: Fernando Wahl <fernando@fwahl.org>

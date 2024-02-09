@@ -1,0 +1,36 @@
+name: "Integração  Api Tuya com Home Assistant (Não oficial)"
+description: "Addon para integrar no Home Assistant a api da fechadura tuya"
+version: "1.0.0"
+slug: "modulo_tuya"
+init: false
+discovery:
+  - mqtt
+services:
+  - mqtt:need
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+ports:
+  40003/tcp: 40003
+host_network: true
+options:
+  tuya_url: ""
+  tuya_client_id: ""
+  tuya_client_secret: ""
+  tuya_device_id: ""
+  mqtt_host: ""
+  mqtt_user: ""
+  mqtt_password: ""
+  update_interval: 1
+schema:
+  tuya_url: str
+  tuya_client_id: str
+  tuya_client_secret: str
+  tuya_device_id: str
+  mqtt_host: str
+  mqtt_user: str
+  mqtt_password: str
+  update_interval: int

@@ -27,7 +27,7 @@ consign({
 const logger = app.middlewares.log.logger;
 
 // Start the server
-const PORT = process.env.APP_PORT || 40002;
+const PORT = process.env.APP_PORT || 40009;
 app.listen(PORT, () => {
     logger.debug(`Server running on http://localhost:${PORT}`);
     logger.debug(`GET http://localhost:${PORT}${process.env.APP_PREFIX}`);
