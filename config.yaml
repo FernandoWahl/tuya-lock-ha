@@ -1,6 +1,6 @@
 name: "Integração  Api Tuya com Home Assistant (Não oficial)"
 description: "Addon para integrar no Home Assistant a api da fechadura tuya"
-version: "1.0.0"
+version: "1.0.1"
 slug: "modulo_tuya"
 init: false
 discovery:
@@ -14,7 +14,7 @@ arch:
   - armv7
   - i386
 ports:
-  40003/tcp: 40003
+  40009/tcp: 40009
 host_network: true
 options:
   tuya_url: ""
