@@ -1,0 +1,36 @@
+{
+  "name": "tuya-lock-ha",
+  "version": "1.0.0",
+  "description": "Addon para integrar no Home Assistant a api da fechadura tuya",
+  "main": "index.js",
+  "scripts": {
+    "start": "APP_PORT=40002 APP_DEBUG=false APP_PREFIX=/tuyalock APP_LOG_LEVEL=debug APP_JWT_SECRET=37e92d6b44c931bdd9f8b6aef2f8f58d NODE_ENV=production node app/index.js",
+    "nodemon": "APP_PORT=40002 APP_DEBUG=true APP_PREFIX=/tuyalock APP_LOG_LEVEL=debug APP_JWT_SECRET=37e92d6b44c931bdd9f8b6aef2f8f58d NODE_ENV=development nodemon app/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "CLI CSF",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "axios-logger": "^2.7.1",
+    "capitalize": "^2.0.4",
+    "compression": "^1.7.4",
+    "consign": "^0.1.6",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.18.2",
+    "express-http-context": "^1.2.4",
+    "express-winston": "^3.2.1",
+    "fs": "^0.0.1-security",
+    "install": "^0.13.0",
+    "moment": "^2.30.1",
+    "mqtt": "^4.3.7",
+    "request": "^2.88.2",
+    "sha.js": "^2.4.11",
+    "winston": "^3.10.0",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.8"
+  }
+}

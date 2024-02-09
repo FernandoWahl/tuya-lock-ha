@@ -1,0 +1,10 @@
+{
+    "tuya_url": "",
+    "tuya_client_id": "",
+    "tuya_client_secret": "",
+    "tuya_device_id": "",
+    "mqtt_host": "",
+    "mqtt_user": "",
+    "mqtt_password": "",
+    "update_interval": 1
+}
