@@ -1,6 +1,6 @@
 {
   "name": "tuya-lock-ha",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Addon para integrar no Home Assistant a api da fechadura tuya",
   "main": "index.js",
   "scripts": {

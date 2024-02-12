@@ -8,7 +8,7 @@ module.exports = app => {
         identifiers: [
             options.tuya.deviceId
         ],
-        manufacturer: 'Tuya Api',
+        manufacturer: 'Tuya',
         model: 'Tuya Api Node',
         name: `Tuya Api`
     }
